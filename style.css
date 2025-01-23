@@ -14,6 +14,7 @@ body {
 .container {
   width: 1200px;
   margin: 0 auto;
+  padding: 0 16px;
 }
 
 .main-header {
@@ -157,7 +158,7 @@ h1::first-letter {
 }
 
 h2::after {
-  content: "Trending 🔥";
+  content: 'Trending 🔥';
   background-color: #109ba0;
   color: #fff;
   font-size: 14px;
@@ -179,29 +180,29 @@ button {
 }
 
 /* RTL Styles */
-[dir="rtl"] h2:after {
-  content: "الأكثر مشاهدة 🔥";
+[dir='rtl'] h2:after {
+  content: 'الأكثر مشاهدة 🔥';
 }
 
-[dir="rtl"] nav a:link {
+[dir='rtl'] nav a:link {
   margin-right: auto;
   margin-left: 30px;
 }
 
-[dir="rtl"] nav a:link:last-child {
+[dir='rtl'] nav a:link:last-child {
   margin-left: 0;
 }
 
-[dir="rtl"] .language-nav a:link {
+[dir='rtl'] .language-nav a:link {
   margin-left: 0;
 }
 
-[dir="rtl"] h2::after {
+[dir='rtl'] h2::after {
   margin-right: 30px;
   margin-left: auto;
 }
 
-[dir="rtl"] .reactions {
+[dir='rtl'] .reactions {
   left: 50px;
   right: auto;
 }
@@ -210,38 +211,38 @@ button {
   /* float: right; */
 /* } */
 
-[dir="rtl"] .author {
+[dir='rtl'] .author {
   /* float: right; */
   margin-right: 10px;
 }
 
-[dir="rtl"] h1 {
+[dir='rtl'] h1 {
   /* float: right; */
 }
 
-[dir="rtl"] .nav-content {
+[dir='rtl'] .nav-content {
   /* float: left; */
 }
 
-[dir="rtl"] .main-nav {
+[dir='rtl'] .main-nav {
   /* float: right; */
 }
 
-[dir="rtl"] .language-nav {
+[dir='rtl'] .language-nav {
   /* float: left; */
   /* margin-right: 60px; */
 }
 
-[dir="rtl"] article {
+[dir='rtl'] article {
   /* float: right; */
 }
 
-[dir="rtl"] aside {
+[dir='rtl'] aside {
   /* float: left; */
 }
 
-[dir="rtl"] body {
-  font-family: "Readex Pro", sans-serif;
+[dir='rtl'] body {
+  font-family: 'Readex Pro', sans-serif;
 }
 
 /* FLOAT */
