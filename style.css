@@ -363,3 +363,45 @@ footer {
   padding-top: 10px;
   grid-column: 1/-1;
 }
+
+@media only screen and (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr; /* All content in one column */
+  }
+  .main-header {
+    padding: 20px;
+  }
+  .nav-content {
+    flex-direction: column; /* Stack navigation items vertically */
+  }
+  .author-content {
+    flex-direction: column; /* Stack author details vertically */
+  }
+  h2, h3 {
+    font-size: 24px; /* Make headings a bit smaller for medium screens */
+  }
+}
+
+/* For small screens (phones) */
+@media only screen and (max-width: 480px) {
+  .container {
+    padding: 0 10px; /* Add some padding on the sides for small screens */
+  }
+  .main-header {
+    padding: 15px;
+  }
+  .nav-content {
+    flex-direction: column;
+    gap: 15px; /* Reduce gap between navigation items */
+  }
+  .author-content {
+    flex-direction: column;
+    gap: 10px; /* Reduce gap between author image and name */
+  }
+  h2, h3 {
+    font-size: 20px; /* Make headings even smaller for phones */
+  }
+  .reactions {
+    font-size: 18px; /* Adjust reactions font size for phones */
+  }
+}
